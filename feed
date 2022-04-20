@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Crypto Yield Farming On Binance</title>
+	<atom:link href="https://ahmed1107.github.io/defi-crypto/feed" rel="self" type="application/rss+xml" />
+	<link>https://ahmed1107.github.io/defi-crypto</link>
+	<description>Learn how to Yield Farm using Cryptocurrency</description>
+	<lastBuildDate>Wednesday, 20 April 2022 15:09:01 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>	
+	
+	
+	
+<!--feeditem-->
+<item>
+		<title>Yield Farming on Binance Smart Chain made Easy</title>
+		<link>https://ahmed1107.github.io/defi-crypto/BNB/Yield-Farming-on-Binance-Smart-Chain-made-Easy.html</link>
+		<pubDate>Wednesday, 20 April 2022 15:09:01 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<category><![CDATA[BNB]]></category>
+		<guid isPermaLink="false">https://ahmed1107.github.io/defi-crypto/BNB/Yield-Farming-on-Binance-Smart-Chain-made-Easy.html</guid> 
+		<description><![CDATA[Yield Farming on Binance Smart Chain made Easy
+by
+Yield Farming for BNB
+Posted on 20-04-2022 03:09 PM
+If you are willing to take risks, then Yield Farming could be something for youYield farming is a simple technique used to increase your tokens with tokens you already own
+]]></description>
+       <enclosure url="#" length="0" type="image" /></item>
+	
+	
+</channel>
+</rss>
+
+		
