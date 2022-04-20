@@ -1,0 +1,155 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ppts" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ppts">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:int" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Type" type="xs:string" minOccurs="0" />
+                <xs:element name="Stag" type="xs:string" minOccurs="0" />
+                <xs:element name="Etag" type="xs:string" minOccurs="0" />
+                <xs:element name="Source" type="xs:string" minOccurs="0" />
+                <xs:element name="ShortTag" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+ <ppts>
+    <Id>22</Id>
+    <Name>leftCategory</Name>
+    <Type>Category</Type>
+    <Stag>&lt;ul class="list-unstyled mb-0" class="leftCat"&gt;</Stag>
+    <Etag>&lt;/ul&gt;</Etag>
+    <Source>&lt;li&gt;
+     &lt;a href="!catlink"&gt;!category&lt;/a&gt;
+ &lt;/li&gt;</Source>
+    <ShortTag>N.A</ShortTag>
+  </ppts>
+  <ppts>
+    <Id>16</Id>
+    <Name>home-post</Name>
+    <Type>Post</Type>
+    <Stag>&lt;div class="my-posts"&gt;</Stag>
+    <Etag>&lt;/div&gt;</Etag>
+    <Source>&lt;div class="card mb-4"&gt;
+            &lt;img class="card-img-top" src="!imagepath" alt="!imagealt"&gt;
+            &lt;div class="card-body"&gt;
+              &lt;h2 class="card-title"&gt;&lt;a href="!postlink"&gt;!title&lt;/a&gt;&lt;/h2&gt;
+              &lt;p class="card-text"&gt;!description&lt;/p&gt;
+              &lt;a href="!postlink" class="btn btn-primary"&gt;Read More &amp;rarr;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="card-footer text-muted"&gt;
+              Posted on !postdate by
+              &lt;a href="!authprofile"&gt;!author&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;</Source>
+    <ShortTag>N.A</ShortTag>
+  </ppts>
+  
+  <ppts>
+    <Id>14</Id>
+    <Name>Banner</Name>
+    <Type>Banner</Type>
+    <Stag />
+    <Etag />
+    <Source>        
+	&lt;div class="card my-4"&gt;
+&lt;div class="card-body"&gt;
+!Banner!
+&lt;/div&gt;
+&lt;/div&gt;
+</Source>
+    <ShortTag>N.A</ShortTag>
+  </ppts>
+  <ppts>
+    <Id>15</Id>
+    <Name>RecentPosts</Name>
+    <Type>RecentPost</Type>
+    <Stag />
+    <Etag />
+    <Source>         &lt;li&gt;
+       &lt;a href="!postlink"&gt;!title &lt;/a&gt; 
+         &lt;/li&gt;</Source>
+    <ShortTag>N.A</ShortTag>
+  </ppts>
+ 
+  <ppts>
+    <Id>3</Id>
+    <Name>Home Title</Name>
+    <Type>Shortcode</Type>
+    <Stag>!HomeTitle</Stag>
+    <Etag />
+    <Source>Add Home Title Here</Source>
+    <ShortTag>!HomeTitle</ShortTag>
+  </ppts>
+  <ppts>
+    <Id>4</Id>
+    <Name>Meta Description</Name>
+    <Type>Shortcode</Type>
+    <Stag>!MetaDescription</Stag>
+    <Etag />
+    <Source>Add Meta Description Here</Source>
+    <ShortTag>!MetaDescription</ShortTag>
+  </ppts>
+  <ppts>
+    <Id>5</Id>
+    <Name>Meta Keywords</Name>
+    <Type>Shortcode</Type>
+    <Stag>!MetaKeywords</Stag>
+    <Etag />
+    <Source>Add Meta Keywords Here</Source>
+    <ShortTag>!MetaKeywords</ShortTag>
+  </ppts>
+  <ppts>
+    <Id>6</Id>
+    <Name>Site Name</Name>
+    <Type>Shortcode</Type>
+    <Stag>!SiteName</Stag>
+    <Etag />
+    <Source>Site Name</Source>
+    <ShortTag>!SiteName</ShortTag>
+  </ppts>
+ 
+  
+ 
+  <ppts>
+    <Id>13</Id>
+    <Name>Footer</Name>
+    <Type>Shortcode</Type>
+    <Stag>!FooterText</Stag>
+    <Etag />
+    <Source>Add your footer text here</Source>
+    <ShortTag>!FooterText</ShortTag>
+  </ppts>
+  <ppts>
+    <Id>17</Id>
+    <Name>Post Editor</Name>
+    <Type>PostEditor</Type>
+    <Stag>&lt;!--postcontent--&gt;</Stag>
+    <Etag>&lt;!--endpostcontent--&gt;</Etag>
+    <Source />
+    <ShortTag>&lt;!--postcontent --&gt;</ShortTag>
+  </ppts>
+<ppts>
+    <Id>20</Id>
+    <Name>Sitemap</Name>
+    <Type>Sitemap</Type>
+    <Stag>&lt;!--sitemap--&gt;</Stag>
+    <Etag>&lt;!--endsitemap--&gt;</Etag>
+    <Source>
+	&lt;dl class="row">
+    &lt;dt class="col-sm-4"&gt;&lt;small&gt;&lt;a href="{!PostLink}" title="{!PostTitle}"&gt;{!PostTitle}&lt;/a&gt;&lt;/small&gt;&lt;/dt&gt;
+    &lt;dd class="col-sm-8"&gt;&lt;small&gt;{!description}&lt;/small&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+	</Source>
+    <ShortTag>&lt;!--sitemap --&gt;</ShortTag>
+  </ppts>
+   
+  </NewDataSet>
